@@ -1,16 +1,6 @@
-# Book class definition
-class Book:
-    def __init__(self, title, isbn):
-        self.title = title
-        self.isbn = isbn
-    
-    
-# Library class definition
-class Library:
-    def __init__(self, name, address):
-        self.name = name
-        self.address = address
-
+# import classes from files
+from book import Book
+from library import Library
 
 # creating Book objects
 book1 = Book('Lord of the Rings', '435fsdfs')
